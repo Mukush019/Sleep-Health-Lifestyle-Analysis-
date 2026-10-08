@@ -24,6 +24,7 @@ The data is cleaned and modeled in Power BI using Power Query and DAX. This incl
 The data was downloaded from Kaggle. It is available in both CSV and XLSX formats. [Click Here](https://l1nk.dev/yt5pt4j) to download the data in XLSX format. I will be using the same format in Power BI.
 
 
+
 ## Tools
 
 ## Data Cleaning and Data Preparation
