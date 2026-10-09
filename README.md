@@ -23,7 +23,21 @@ The data is cleaned and modeled in Power BI using Power Query and DAX. This incl
 
 The data was downloaded from Kaggle. It is available in both CSV and XLSX formats. [Click Here](https://l1nk.dev/yt5pt4j) to download the data in XLSX format. I will be using the same format in Power BI.
 
+The columns available in this dataset are:-
 
+- `Person ID` - Unique identifier
+- `Gender` -  Has `Male` and `Female`
+- `Age` - 27 and 54
+- `Occupation` - `Accountant`, `Doctor`, `Engineer`, `Lawyer`, `Manager`, `Nurse`, `Sales Representative`, `Salesperson`, `Scientist`, `Software Engineer`, `Teacher`
+- `Sleep Duration` - in hours
+- `Quality of Sleep` - on a scale of 1-10
+- `Physical Activity Level` - in hours
+- `Stress Level`- On a scale of 1-10
+- `BMI Category` - Has the values `Normal`, `Normal Weight`, `Overweight`, `Obese`
+- `Blood Pressure` - has the systolic and diastolic numbers
+- `Heart Rate`
+- `Daily Steps`
+- `Sleep Disorder`- `None`, `Insomnia`, & `Sleep Apnea`
 
 ## Tools
 
