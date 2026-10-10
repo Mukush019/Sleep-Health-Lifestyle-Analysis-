@@ -41,7 +41,7 @@ The columns available in this dataset are:-
 
 ## Tools
 
-## Data Cleaning and Data Preparation
+## Data Preparation and Cleaning 
 
 ## EDA
 
