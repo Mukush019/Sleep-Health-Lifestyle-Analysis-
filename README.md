@@ -41,9 +41,21 @@ The columns available in this dataset are:-
 
 ## Tools
 
+This project's data cleaning, modeling, analysis, and visualization were done in **Microsoft Power BI Desktop `Version: 2.156.951.0 64-bit (July 2026)`**.
 
+## Data Cleaning and Modeling
 
-## Data Preparation and Cleaning 
+The data cleaning was done in the `Power Query Editor in Microsoft Power BI`. There were no changes in the raw data. All the steps were recorded and properly labeled in the ***Applied Steps*** panel, making the process **reproducible**.
+
+|Table1: Issues Identified and Action Taken|
+|----------------------------------|
+
+|**Column**|**Issue**|**Action**|**# of Rows Affected**|
+|----------|---------|----------|----------------------|
+|Occupation|*Sales Representative* and *Salesperson* are similar roles under diferent labels|Replace *Sales Representative* to *Salesperson*|2|
+|BMI Category|Inconsistency in *Normal Weight* and *Normal*|Standardize to Normal Weight|195|
+|Blood Pressure|Stored as text. *No aggregation or numerical analysis can be done*|Split the numbers based on `/` into `Systolic` and `Diastolic` whole numbers|374|
+
 
 ## EDA
 
