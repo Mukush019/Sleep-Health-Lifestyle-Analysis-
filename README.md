@@ -56,7 +56,7 @@ The data cleaning was done in the `Power Query Editor in Microsoft Power BI`. Th
 |BMI Category|Inconsistency in *Normal Weight* and *Normal*|Standardize to Normal Weight|195|
 |Blood Pressure|Stored as text. *No aggregation or numerical analysis can be done*|Split the numbers based on `/` into `Systolic` and `Diastolic` whole numbers|374|
 
-
+ 
 ## EDA
 
 ## Data Analysis
