@@ -45,7 +45,7 @@ This project's data cleaning, modeling, analysis, and visualization were done in
 
 ## Data Cleaning and Modeling
 
-The data cleaning was done in the `Power Query Editor in Microsoft Power BI`. There were no changes in the raw data. All the steps were recorded and properly labeled in the ***Applied Steps*** panel, making the process **reproducible**.
+The data cleaning was done in the `Power Query Editor in Microsoft Power BI`. There were no changes in the raw data. All the steps were recorded and properly labeled in the ***Applied Steps*** panel, making the process **reproducible**. A summary of the data cleaning process is in Table 1. 
 
 |Table1: Issues Identified and Action Taken|
 |----------------------------------|
@@ -56,8 +56,34 @@ The data cleaning was done in the `Power Query Editor in Microsoft Power BI`. Th
 |BMI Category|Inconsistency in *Normal Weight* and *Normal*|Standardize to Normal Weight|195|
 |Blood Pressure|Stored as text. *No aggregation or numerical analysis can be done*|Split the numbers based on `/` into `Systolic` and `Diastolic` whole numbers|374|
 
- 
+### Data Modeling 
+
+This step involves creating a *star schema*. I created one fact table and three dimension tables, commonly referred to as the **Lookup Tables**. The four tables and their contents are shown in the table below, Table2. 
+
+|Table 2: Dimension Modeling|
+|---------------------------|
+
+|**Fact Table**|**Personal Information**|**BMI Table**|**Sleep Disorder**|
+|--------------|------------------------|-------------|------------------|
+|Person ID|P_ID|BMI_ID|Sleep_ID|
+|P_ID|Age|BMI Category|Sleep Disorder|
+|BMI_ID|Age Bin|
+|Sleep_ID|Gender|
+|Daily Steps|Occupation|
+|Diastolic|
+|Systolic|
+|Physical Activity Level|
+|Stress Level|
+|Quality of Sleep|
+|Sleep Duration|
+|Heart Rate|
+
+The schema ended up as shown below. Lookup Tables at the top and fact table at the bottom. 
+
+<img width="1355" height="839" alt="image" src="https://github.com/user-attachments/assets/ab1003e3-daaf-4a9e-9050-3fa14ac00c37" />
+
 ## EDA
+
 
 ## Data Analysis
 
