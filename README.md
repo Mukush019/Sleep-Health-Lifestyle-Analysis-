@@ -78,7 +78,7 @@ This step involves creating a *star schema*. I created one fact table and three 
 |Sleep Duration|
 |Heart Rate|
 
-The schema ended up as shown below. Lookup Tables at the top and fact table at the bottom. 
+The schema ended up as shown below. The Lookup Tables at the top and the fact table at the bottom. 
 
 <img width="1355" height="839" alt="image" src="https://github.com/user-attachments/assets/ab1003e3-daaf-4a9e-9050-3fa14ac00c37" />
 
