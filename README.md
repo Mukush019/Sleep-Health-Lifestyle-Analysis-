@@ -87,6 +87,7 @@ The schema ended up as shown below. The Lookup Tables at the top and the fact ta
 
 ## Data Analysis
 
+
 ## Results 
 
 ## Recomendation
