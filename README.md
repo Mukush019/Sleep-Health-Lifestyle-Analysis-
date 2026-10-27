@@ -27,17 +27,17 @@ The columns available in this dataset are:-
 
 - `Person ID` - Unique identifier
 - `Gender` -  Has `Male` and `Female`
-- `Age` - 27 and 54
+- `Age` - The age of persons in years. `27 and 54.`
 - `Occupation` - `Accountant`, `Doctor`, `Engineer`, `Lawyer`, `Manager`, `Nurse`, `Sales Representative`, `Salesperson`, `Scientist`, `Software Engineer`, `Teacher`
-- `Sleep Duration` - in hours
-- `Quality of Sleep` - on a scale of 1-10
-- `Physical Activity Level` - in hours
+- `Sleep Duration` - Number of hours a person sleeps per day
+- `Quality of Sleep` - subjective rating on a scale of 1-10
+- `Physical Activity Level` - Number of minutes a person engages in physical activity per day.
 - `Stress Level`- On a scale of 1-10
 - `BMI Category` - Has the values `Normal`, `Normal Weight`, `Overweight`, `Obese`
 - `Blood Pressure` - has the systolic and diastolic numbers
-- `Heart Rate`
-- `Daily Steps`
-- `Sleep Disorder`- `None`, `Insomnia`, & `Sleep Apnea`
+- `Heart Rate` - Number of times a resting heart beats, in beats per minute. Normal range: 60-100 
+- `Daily Steps` - The number of steps a person takes per day.
+- `Sleep Disorder`- The presence or absence of sleep disorder. (`None`, `Insomnia`, & `Sleep Apnea`)
 
 ## Tools
 
