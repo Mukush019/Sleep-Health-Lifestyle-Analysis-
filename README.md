@@ -27,17 +27,17 @@ The columns available in this dataset are:-
 
 - `Person ID` - Unique identifier
 - `Gender` -  Has `Male` and `Female`
-- `Age` - 27 and 54
+- `Age` - The age of persons in years. `27 and 54.`
 - `Occupation` - `Accountant`, `Doctor`, `Engineer`, `Lawyer`, `Manager`, `Nurse`, `Sales Representative`, `Salesperson`, `Scientist`, `Software Engineer`, `Teacher`
-- `Sleep Duration` - in hours
-- `Quality of Sleep` - on a scale of 1-10
-- `Physical Activity Level` - in hours
+- `Sleep Duration` - Number of hours a person sleeps per day
+- `Quality of Sleep` - subjective rating on a scale of 1-10
+- `Physical Activity Level` - Number of minutes a person engages in physical activity per day.
 - `Stress Level`- On a scale of 1-10
 - `BMI Category` - Has the values `Normal`, `Normal Weight`, `Overweight`, `Obese`
 - `Blood Pressure` - has the systolic and diastolic numbers
-- `Heart Rate`
-- `Daily Steps`
-- `Sleep Disorder`- `None`, `Insomnia`, & `Sleep Apnea`
+- `Heart Rate` - Number of times a resting heart beats, in beats per minute. Normal range: 60-100 
+- `Daily Steps` - The number of steps a person takes per day.
+- `Sleep Disorder`- The presence or absence of sleep disorder. (`None`, `Insomnia`, & `Sleep Apnea`)
 
 ## Tools
 
@@ -78,7 +78,7 @@ This step involves creating a *star schema*. I created one fact table and three 
 |Sleep Duration|
 |Heart Rate|
 
-The schema ended up as shown below. Lookup Tables at the top and fact table at the bottom. 
+The schema ended up as shown below. The Lookup Tables at the top and the fact table at the bottom. 
 
 <img width="1355" height="839" alt="image" src="https://github.com/user-attachments/assets/ab1003e3-daaf-4a9e-9050-3fa14ac00c37" />
 
@@ -86,6 +86,7 @@ The schema ended up as shown below. Lookup Tables at the top and fact table at t
 
 
 ## Data Analysis
+
 
 ## Results 
 
